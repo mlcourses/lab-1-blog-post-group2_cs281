@@ -9,6 +9,7 @@ This week we'll explore...
 
 ## Materials
 - PB-503 breadboard prototyping station
+![Alternate image text](./resources/IMG_0195.JPG)
 - Arduino kit
 - LEDs
 - 330 Ohm resistors
