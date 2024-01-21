@@ -1,4 +1,4 @@
-# Lab 1: Hardware basics with PB-503 and Arduino
+# Lab 1: Let's learn some hardware with PB-503 and Arduino
 
 Please write a blog post describing your lab here.
 
