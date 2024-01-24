@@ -177,9 +177,14 @@ Set up the function generator that was used in the LED circuits. Typically 1Hz o
 
 
 
-The purpose of the NOT logic gate is to invert a high signal to low or a low signal to high. The 7404 NOT gate IC can be used to demonstrate a not gate. The schematic for the 7404 is shown below.
-<img src="./not_gate.PNG" alt="demo 1 pic" height="600"/>
-To use it have the Vcc pin wired to a 5v power source and the GND pin wired to ground. There are six input pins and six output pins with each pair being denoted with a number, input pins having an A, and output pins having a Y. When g
+
+https://github.com/mlcourses/lab-1-blog-post-group2_cs281/assets/157081107/55108ece-2b02-4702-ae69-4a0e62c98a0a
+
+
+
+https://github.com/mlcourses/lab-1-blog-post-group2_cs281/assets/157081107/ba56f936-c639-4b2a-9f04-16cb46f8db3a
+
+
 
 
 
