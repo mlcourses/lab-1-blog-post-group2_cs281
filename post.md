@@ -57,6 +57,25 @@ We varified this by wiring the holes into Logic Indicators that top red LED ligh
 ## Let's Build LED Circuits
 ### Step 1 - 
 
+![Alternate image text](./resources/IMG_0199.JPG)
+
+
+
+
+### And Gate
+![Alternate image text](./and_gate.PNG)
+
+### Not Gate
+![Alternate image text](./not_gate.PNG)
+
+
+
+
+
+
+
+
+
 ## Testing
 
 ## Conclusion
