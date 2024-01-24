@@ -37,10 +37,13 @@ Look for the integrated components like switches, LEDs, power supplies, and the 
 Learn to power up the breadboard correctly, focusing on the +5 Volts power supply and the Ground connection. 
 Firstly, you need to connect the red wire from the power supply to the top row and the black wire from the ground to the top second row of the breadboard.
 #### Note: DO NOT hook a wire to any of the other voltages since the circuits we use all run on 5 volts.
+#### Note : Always turn off the breadboard power when you are now
 
 ### Step 3 - Using Logic Indicators: 
 eight of them on the right-hand side, and you can use them to determine HIGH or LOW voltage from a location on the breadboard by connecting a wire from the location of interest to one of the eight Logic Indicators. Get a long single wire that is long enough to stretch across the board.
 Use the  Logic Indicators (eight of them on the right-hand side) to determine HIGH or LOW voltage from a location on the breadboard by connecting a wire and understand the voltage levels at different points on the breadboard. Through this step you can verify your circuit connections for the rows and colums.<br />
+<br />
+#### Note : The double check your connections against your circuit diagram before turning the power on.
 <br />
 High:
 ![Alternate image text](./resources/IMG_0196.JPG)
