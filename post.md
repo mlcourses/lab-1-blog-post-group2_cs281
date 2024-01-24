@@ -125,14 +125,16 @@ For this portion of the lab, it is helpful to first understand what an Arduino i
 
 
 
-### And Gate
-<img src="./and_gate.PNG" alt="demo 1 pic" height="600"/>
-
+## Working with logic gates
 ### Not Gate
+The purpose of the NOT logic gate is to invert a high signal to low or a low signal to high. The 7404 NOT gate IC can be used to demonstrate a not gate. The schmatic for the 7404 is shown below.
 <img src="./not_gate.PNG" alt="demo 1 pic" height="600"/>
-The 7404 NOT gate IC is used to take 
+To use it have the Vcc pin wired to a 5v power source and the GND pin wired to ground. There are six input pins and six output pins with each pair being denoted with a number, input pins having an A, and output pins having a Y. When g
 
 
+### And Gate
+The 7408 AND gate IC
+<img src="./and_gate.PNG" alt="demo 1 pic" height="600"/>
 
 
 
