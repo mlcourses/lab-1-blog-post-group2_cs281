@@ -35,12 +35,27 @@ Look for the integrated components like switches, LEDs, power supplies, and the 
 
 ### Step 2 - Powering the Breadboard: 
 Learn to power up the breadboard correctly, focusing on the +5 Volts power supply and the Ground connection. 
+Firstly, you need to connect the red wire from the power supply to the top row and the black wire from the ground to the top second row of the breadboard.
 #### Note: DO NOT hook a wire to any of the other voltages since the circuits we use all run on 5 volts.
 
 ### Step 3 - Using Logic Indicators: 
 eight of them on the right-hand side, and you can use them to determine HIGH or LOW voltage from a location on the breadboard by connecting a wire from the location of interest to one of the eight Logic Indicators. Get a long single wire that is long enough to stretch across the board.
-Use the  Logic Indicators (eight of them on the right-hand side) to determine HIGH or LOW voltage from a location on the breadboard by connecting a wire and understand the voltage levels at different points on the breadboard. Through this step you can verify your circuit connections and functionality.
+Use the  Logic Indicators (eight of them on the right-hand side) to determine HIGH or LOW voltage from a location on the breadboard by connecting a wire and understand the voltage levels at different points on the breadboard. Through this step you can verify your circuit connections for the rows and colums.<br />
+<br />
+High:
+![Alternate image text](./resources/IMG_0196.JPG)
+<br />
+<br />
+Ground:
+![Alternate image text](./resources/IMG_0197.JPG)
 
+### What We Learned: 
+We found out that top rows is connected to each other horizontally and all the holes are top rows is connected to +5 voltage and all the holes in the bottom rows are connected to the ground. <br />
+We varified this by wiring the holes into Logic Indicators that top red LED light up when it is connected to +5 voltage and bottom green LED light up when it is connected to the ground.
+
+
+## Let's Build LED Circuits
+### Step 1 - 
 
 ## Testing
 
