@@ -50,12 +50,20 @@ Ground:
 ![Alternate image text](./resources/IMG_0197.JPG)
 
 ### What We Learned: 
-We found out that top rows is connected to each other horizontally and all the holes are top rows is connected to +5 voltage and all the holes in the bottom rows are connected to the ground. <br />
-We varified this by wiring the holes into Logic Indicators that top red LED light up when it is connected to +5 voltage and bottom green LED light up when it is connected to the ground.
+We found out that the top rows are connected to each other horizontally and all the holes in the top row are connected to +5 voltage, and all the holes in the bottom row are connected to the ground. <br />
+We verified this by wiring the holes into Logic Indicators so that the top red LED lights up when it is connected to +5 voltage and the bottom green LED lights up when it is connected to the ground.
 
 
 ## Let's Build LED Circuits
 ### Step 1 - 
+
+## Working with the Arduino
+### Step 1 -
+For this portion of the lab, it is helpful to first understand what an Arduino is. An Arduino board is an embedded controller that we can use to specify what we would like our circuit to do, as well as let the circuit operate independently. Basically, we are giving the circuit a set of tasks to do autonomously.
+
+### Step 2 - 
+- To make use of the Arduino and give it instructions, we used the Arduino IDE (integrated development environment). Here is the link to download that: http://www.arduino.cc/en/software.
+- 
 
 ## Testing
 
