@@ -27,8 +27,8 @@ This lab serves as your gateway into the world of hardware and embedded systems.
 - Arduino controller and USB cable
 
 
-# Project Steps
-## Breadboard Basics
+# Breadboard Basics
+## Project Step
 ### Step 1 - Explore PB-503:
 Look for the integrated components like switches, LEDs, power supplies, and the function generator.
 ![Alternate image text](./resources/IMG_0195.JPG)
@@ -60,7 +60,12 @@ We found out that top rows is connected to each other horizontally and all the h
 We varified this by wiring the holes into Logic Indicators that top red LED light up when it is connected to +5 voltage and bottom green LED light up when it is connected to the ground.
 
 
-## Let's Build LED Circuits
+# Let's Build LED Circuits
+### Project Step
+### What you need?
+- LEDs
+- 330 Ohm resistors
+
 ### Step 1 - 
 
 <img src="./resources/IMG_0199.JPG" alt="demo 1 pic" height="600"/>
@@ -76,10 +81,11 @@ https://github.com/mlcourses/lab-1-blog-post-group2_cs281/assets/108073642/c98ea
 
 
 ### And Gate
-![Alternate image text](./and_gate.PNG)
+<img src="./and_gate.PNG" alt="demo 1 pic" height="600"/>
 
 ### Not Gate
-![Alternate image text](./not_gate.PNG)
+<img src="./not_gate.PNG" alt="demo 1 pic" height="600"/>
+
 
 
 
