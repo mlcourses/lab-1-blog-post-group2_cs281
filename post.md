@@ -1,9 +1,5 @@
 # Lab 1: Let's learn some hardware with PB-503 and Arduino
 
-Please write a blog post describing your lab here.
-
-This is just an example of how you might structure your blog post, feel free to edit as you wish. For example, you might divide the lab into different sections each with their own intro, instructions, results, and takeaways. Please see the rubric for details on how the post will be evaluated.
-
 # Overview and Motivation
 Welcome to the Lab 01 of CS281: Introduction to Computer Systems! 
 This lab serves as your gateway into the world of hardware and embedded systems. The lab will take you through the intricacies of the PB-503 breadboard prototyping stations and the Arduino microcontroller system. By the end of this lab, you'll be adept at working with essential circuit components like LEDs, resistors, and logic gates, and you'll understand how to interpret IC data sheets—an invaluable skill in the realm of computer systems.
