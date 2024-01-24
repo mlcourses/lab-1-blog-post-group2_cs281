@@ -27,8 +27,8 @@ This lab serves as your gateway into the world of hardware and embedded systems.
 - Arduino controller and USB cable
 
 
-# Project Steps
-## Breadboard Basics
+# Breadboard Basics
+## Project Step
 ### Step 1 - Explore PB-503:
 Look for the integrated components like switches, LEDs, power supplies, and the function generator.
 ![Alternate image text](./resources/IMG_0195.JPG)
@@ -37,15 +37,21 @@ Look for the integrated components like switches, LEDs, power supplies, and the 
 Learn to power up the breadboard correctly, focusing on the +5 Volts power supply and the Ground connection. 
 Firstly, you need to connect the red wire from the power supply to the top row and the black wire from the ground to the top second row of the breadboard.
 #### Note: DO NOT hook a wire to any of the other voltages since the circuits we use all run on 5 volts.
+#### Note : Always turn off the breadboard power when you are now
 
 ### Step 3 - Using Logic Indicators: 
 eight of them on the right-hand side, and you can use them to determine HIGH or LOW voltage from a location on the breadboard by connecting a wire from the location of interest to one of the eight Logic Indicators. Get a long single wire that is long enough to stretch across the board.
 Use the  Logic Indicators (eight of them on the right-hand side) to determine HIGH or LOW voltage from a location on the breadboard by connecting a wire and understand the voltage levels at different points on the breadboard. Through this step you can verify your circuit connections for the rows and colums.<br />
 <br />
+#### Note : The double check your connections against your circuit diagram before turning the power on.
+<br />
+
 High:
 ![Alternate image text](./resources/IMG_0196.JPG)
+
 <br />
 <br />
+
 Ground:
 ![Alternate image text](./resources/IMG_0197.JPG)
 
@@ -54,8 +60,14 @@ We found out that the top rows are connected to each other horizontally and all 
 We verified this by wiring the holes into Logic Indicators so that the top red LED lights up when it is connected to +5 voltage and the bottom green LED lights up when it is connected to the ground.
 
 
-## Let's Build LED Circuits
+# Let's Build LED Circuits
+### Project Step
+### What you need?
+- LEDs
+- 330 Ohm resistors
+
 ### Step 1 - 
+
 
 ## Working with the Arduino
 ### Step 1 -
@@ -64,6 +76,51 @@ For this portion of the lab, it is helpful to first understand what an Arduino i
 ### Step 2 - 
 - To make use of the Arduino and give it instructions, we used the Arduino IDE (integrated development environment). Here is the link to download that: http://www.arduino.cc/en/software.
 - 
+
+<img src="./resources/IMG_0199.JPG" alt="demo 1 pic" height="600"/>
+
+
+
+
+
+
+https://github.com/mlcourses/lab-1-blog-post-group2_cs281/assets/108073642/c98ea01f-0c8b-464a-afd8-0b9fb1a6280f
+
+
+
+
+### And Gate
+<img src="./and_gate.PNG" alt="demo 1 pic" height="600"/>
+
+### Not Gate
+<img src="./not_gate.PNG" alt="demo 1 pic" height="600"/>
+
+
+
+
+
+
+
+
+```C++
+const int P = 13;
+const int A = 1000;
+const int B = 1000;
+
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(P, OUTPUT);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  digitalWrite(P, HIGH);
+  delay(A);
+  digitalWrite(P, LOW);
+  delay(B);
+}
+```
+
 
 ## Testing
 
