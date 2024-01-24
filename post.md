@@ -63,9 +63,7 @@ We varified this by wiring the holes into Logic Indicators that top red LED ligh
 ## Let's Build LED Circuits
 ### Step 1 - 
 
-![Alternate image text](./resources/IMG_0199.JPG)
-
-![Alternate image text](./resources/IMG_0201.MOV)
+<img src="./resources/IMG_0199.JPG" alt="demo 1 pic" height="600"/>
 
 
 <video width="320" height="240" controls>
