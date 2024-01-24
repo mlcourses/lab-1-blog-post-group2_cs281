@@ -21,7 +21,7 @@ This lab serves as your gateway into the world of hardware and embedded systems.
 - LEDs
 - 330 Ohm resistors
 - Logic probes
-- 7404 OR gate IC
+- 7404 NOT gate IC
 - 7408 AND gate IC
 - Wires
 - Arduino controller and USB cable
@@ -94,6 +94,7 @@ https://github.com/mlcourses/lab-1-blog-post-group2_cs281/assets/108073642/c98ea
 
 ### Not Gate
 <img src="./not_gate.PNG" alt="demo 1 pic" height="600"/>
+The 7404 NOT gate IC is used to take 
 
 
 
