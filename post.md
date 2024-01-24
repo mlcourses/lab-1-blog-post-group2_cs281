@@ -140,7 +140,9 @@ void loop() {
 - To get the code to work on your Arduino, you must first "verify" your code by clicking the checkmark in the top left corner of the page. After that you can click the arrow that is directly next to it to upload your code to the Arduino. After doing this, your Arduino can operate independently from your laptop, as long as it has a power source.
 
 ### Step 3 - Wiring the Arduino
-- Now that we have the Arduino set up, we can start by 
+- Now that we have the Arduino set up, we can start by wiring pin 13 of the Arduino to the first pin of the AND gate. When doing this, make sure you remove the previous wire from that pin and leave the second input as is.
+- Next, we want to wire the GND from the breadboard to the Arduino. You may use any of the GND pins on the Arduino. It is necessary to do this in order to make sure that the voltage for the Arduino is the same as the breadboard.
+- After this, make sure the second switch is set to high. See what happens. You can see the output we got in the videos below and see if you matched ours. Once you've done this, feel free to mess with values A and B in the Arduino program to change the delay. 
 
 
 https://github.com/mlcourses/lab-1-blog-post-group2_cs281/assets/108073642/a9e87d59-3304-45e1-a5b3-8f9dd710418b
@@ -161,7 +163,7 @@ https://github.com/mlcourses/lab-1-blog-post-group2_cs281/assets/108073642/76b03
 
 ## Working with logic gates
 ### Not Gate
-The purpose of the NOT logic gate is to invert a high signal to low or a low signal to high. The 7404 NOT gate IC can be used to demonstrate a not gate. The schmatic for the 7404 is shown below.
+The purpose of the NOT logic gate is to invert a high signal to low or a low signal to high. The 7404 NOT gate IC can be used to demonstrate a not gate. The schematic for the 7404 is shown below.
 <img src="./not_gate.PNG" alt="demo 1 pic" height="600"/>
 To use it have the Vcc pin wired to a 5v power source and the GND pin wired to ground. There are six input pins and six output pins with each pair being denoted with a number, input pins having an A, and output pins having a Y. When g
 
