@@ -45,10 +45,13 @@ Use the  Logic Indicators (eight of them on the right-hand side) to determine HI
 <br />
 #### Note : The double check your connections against your circuit diagram before turning the power on.
 <br />
+
 High:
 ![Alternate image text](./resources/IMG_0196.JPG)
+
 <br />
 <br />
+
 Ground:
 ![Alternate image text](./resources/IMG_0197.JPG)
 
@@ -62,7 +65,12 @@ We varified this by wiring the holes into Logic Indicators that top red LED ligh
 
 ![Alternate image text](./resources/IMG_0199.JPG)
 
+![Alternate image text](./resources/IMG_0201.MOV)
 
+
+<video width="320" height="240" controls>
+  <source src="./resources/IMG_0201.MOV" type="video/mp4">
+</video>
 
 
 ### And Gate
@@ -77,7 +85,24 @@ We varified this by wiring the holes into Logic Indicators that top red LED ligh
 
 
 
+```C++
+const int P = 13;
+const int A = 1000;
+const int B = 1000;
 
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(P, OUTPUT);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  digitalWrite(P, HIGH);
+  delay(A);
+  digitalWrite(P, LOW);
+  delay(B);
+}
+```
 
 ## Testing
 
