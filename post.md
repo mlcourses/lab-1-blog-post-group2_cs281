@@ -101,50 +101,19 @@ https://github.com/mlcourses/lab-1-blog-post-group2_cs281/assets/108073642/681af
 
 
 
+
+
 # Working with the Arduino
-## Project Step
-### Step 1 -
+## What you need
+- Arduino Kit
+- Laptop with Arduino software
+### Step 1 - Understanding the Arduino
+
 For this portion of the lab, it is helpful to first understand what an Arduino is. An Arduino board is an embedded controller that we can use to specify what we would like our circuit to do, as well as let the circuit operate independently. Basically, we are giving the circuit a set of tasks to do autonomously.
 
-### Step 2 - 
+### Step 2 - Setting up the Arduino
 - To make use of the Arduino and give it instructions, we used the Arduino IDE (integrated development environment). Here is the link to download that: http://www.arduino.cc/en/software.
-- 
-
-
-
-
-
-
-
-
-
-
-
-
-## Working with logic gates
-### Not Gate
-The purpose of the NOT logic gate is to invert a high signal to low or a low signal to high. The 7404 NOT gate IC can be used to demonstrate a not gate. The schmatic for the 7404 is shown below.
-<img src="./not_gate.PNG" alt="demo 1 pic" height="420"/>
-To use it have the Vcc pin wired to a 5v power source and the GND pin wired to ground. There are six input pins and six output pins with each pair being denoted with a number, input pins having an A, and output pins having a Y. 
-## Project Step - Oscillating NOT circuit
-### Step 1: Set up NOT gate
-Have the 7404 IC in the breadboard. We wire the Vcc to the 5v power supply and the GND to ground. 
-### Step 2: Plug in inputs
-Then wire the function generator to one of your input pins. Wire one of the logic indicators to the input pin and function generator aswell. Then wire the corrosponding output pin to another logic indicator.
-### Step 3: Set function generator
-Set up the function generator that was used in the LED circuits. Typically 1Hz on the squared wave works best.
-
-
-
-
-### And Gate
-The purpose of the AND logic gate is to take The 7408 AND gate IC
-<img src="./and_gate.PNG" alt="demo 1 pic" height="420"/>
-
-
-
-
-
+- Once you have become familiar with the software, use this code as instructions for the circuit:
 
 ```C++
 const int P = 13;
@@ -164,11 +133,72 @@ void loop() {
   delay(B);
 }
 ```
+- This may look daunting if you have never worked with code before, but its simple, we promise.
+- Let us break it down for you. The very first line creates a variable, P, that will represent connection hole 13 on the Arduino board. Note that if you change which hole you are connecting to the Arduino, you must change it to the respective number in this code.
+- The next two lines represent 1000 milliseconds (1 second) that we will use as a delay.
+- Next, we have two functions: the setup function and the loop function. When an Arduino program is run, it first runs the setup then the loop function infinitely.
+- To get the code to work on your Arduino, you must first "verify" your code by clicking the checkmark in the top left corner of the page. After that you can click the arrow that is directly next to it to upload your code to the Arduino. After doing this, your Arduino can operate independently from your laptop, as long as it has a power source.
+
+### Step 3 - Wiring the Arduino
+- Now that we have the Arduino set up, we can start by wiring pin 13 of the Arduino to the first pin of the AND gate. When doing this, make sure you remove the previous wire from that pin and leave the second input as is.
+- Next, we want to wire the GND from the breadboard to the Arduino. You may use any of the GND pins on the Arduino. It is necessary to do this in order to make sure that the voltage for the Arduino is the same as the breadboard.
+- After this, make sure the second switch is set to high. See what happens. You can see the output we got in the videos below and see if you matched ours. Once you've done this, feel free to mess with values A and B in the Arduino program to change the delay. 
 
 
-## Testing
+https://github.com/mlcourses/lab-1-blog-post-group2_cs281/assets/108073642/a9e87d59-3304-45e1-a5b3-8f9dd710418b
+
+
+
+
+
+
+https://github.com/mlcourses/lab-1-blog-post-group2_cs281/assets/108073642/76b03ca5-80cc-4fa0-89e9-a5fbb10300ee
+- In this video, we connected it to an AND gate and then to the logic indicator in order to check and experiment with the AND gate.
+
+
+
+
+
+
+
+## Working with logic gates
+### Not Gate
+
+The purpose of the NOT logic gate is to invert a high signal to low or a low signal to high. The 7404 NOT gate IC can be used to demonstrate a not gate. The schmatic for the 7404 is shown below.
+<img src="./not_gate.PNG" alt="demo 1 pic" height="420"/>
+To use it have the Vcc pin wired to a 5v power source and the GND pin wired to ground. There are six input pins and six output pins with each pair being denoted with a number, input pins having an A, and output pins having a Y. 
+## Project Step - Oscillating NOT circuit
+### Step 1: Set up NOT gate
+Have the 7404 IC in the breadboard. We wire the Vcc to the 5v power supply and the GND to ground. 
+### Step 2: Plug in inputs
+Then wire the function generator to one of your input pins. Wire one of the logic indicators to the input pin and function generator aswell. Then wire the corrosponding output pin to another logic indicator.
+### Step 3: Set function generator
+Set up the function generator that was used in the LED circuits. Typically 1Hz on the squared wave works best.
+
+
+
+The purpose of the NOT logic gate is to invert a high signal to low or a low signal to high. The 7404 NOT gate IC can be used to demonstrate a not gate. The schematic for the 7404 is shown below.
+<img src="./not_gate.PNG" alt="demo 1 pic" height="600"/>
+To use it have the Vcc pin wired to a 5v power source and the GND pin wired to ground. There are six input pins and six output pins with each pair being denoted with a number, input pins having an A, and output pins having a Y. When g
+
+
+
+### And Gate
+The purpose of the AND logic gate is to take The 7408 AND gate IC
+<img src="./and_gate.PNG" alt="demo 1 pic" height="420"/>
+
+
+
+
+
+
+
+
 
 ## Conclusion
+
+
+
 
 
 
