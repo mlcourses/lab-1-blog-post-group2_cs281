@@ -66,9 +66,13 @@ We varified this by wiring the holes into Logic Indicators that top red LED ligh
 <img src="./resources/IMG_0199.JPG" alt="demo 1 pic" height="600"/>
 
 
-<video width="320" height="240" controls>
-  <source src="./resources/IMG_0201.MOV" type="video/mp4">
-</video>
+
+
+
+
+https://github.com/mlcourses/lab-1-blog-post-group2_cs281/assets/108073642/c98ea01f-0c8b-464a-afd8-0b9fb1a6280f
+
+
 
 
 ### And Gate
