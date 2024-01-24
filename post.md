@@ -61,15 +61,52 @@ We verified this by wiring the holes into Logic Indicators so that the top red L
 
 
 # Let's Build LED Circuits
-### Project Step
-### What you need?
+
+## What you need?
 - LEDs
 - 330 Ohm resistors
+## Project Step
+![led_inst](https://github.com/mlcourses/lab-1-blog-post-group2_cs281/assets/108073642/545b5c83-e8ca-49ae-8839-8200eff04193)
+### Step 1 - Wiring: 
+Wire the 330 Ohm resistors to the GND same row as the short side of the LED, and wire 5v+ power and the long side of the LED on the same row. It should look like a picture below. <br />
+If the LED lights up, you are good to go!
+#### Note : The “long” side of the LED must be connected to the +5V and the short side to the GND side.
+<img src="./resources/IMG_0199.JPG" alt="demo 1 pic" height="400"/>
 
-### Step 1 - 
+
+### Step 2 - Connect to Function Generator: 
+If you look at the left side of the board, you will see the "Function Generator" with buttons, knobs or sliders. <br />
+Now you will follow the below procedures: <br />
+<br />
+**(1) Set the switch to a square wave. <br />**
+**(2) Set the top switch to “1”. <br />**
+**(3) Set the other top switch to Hz (not KHz). <br />**
+**(4) Set the left slider to 1.0; this slider can slow the selected frequency by fractions. <br />**
+**(5) Set the right slider to its top setting; this slider can be used to select part of the max voltage (afraction of +5V). <br />**
+**(6) Use your long wire and connect one end to one of the six non-TTL pins below the function generator. Connect the other end as the high (+5) connection to your LED circuit. <br />**
+
+Now if you turn on the function generator, you will see the LED light blinking.<br />
+#### Note: If you change the AMP, you can change the rate of blinking of LED!
+#### Fun Fact: One hertz is equal to one cycle per second.
+https://github.com/mlcourses/lab-1-blog-post-group2_cs281/assets/108073642/c98ea01f-0c8b-464a-afd8-0b9fb1a6280f
 
 
-## Working with the Arduino
+
+### Step 3 - Check Phase Transition :
+If you change the Function Generator to produce different wave, such as "smooth" or "sharp" wave, you will see the differece in how the LED light changes. <br />
+
+https://github.com/mlcourses/lab-1-blog-post-group2_cs281/assets/108073642/ceac7c0d-eb9d-4087-b557-7fd759e6b5fb
+
+
+https://github.com/mlcourses/lab-1-blog-post-group2_cs281/assets/108073642/681af5ed-7562-41e6-b547-a7fdc48c8f91
+
+
+
+
+
+
+# Working with the Arduino
+## Project Step
 ### Step 1 -
 For this portion of the lab, it is helpful to first understand what an Arduino is. An Arduino board is an embedded controller that we can use to specify what we would like our circuit to do, as well as let the circuit operate independently. Basically, we are giving the circuit a set of tasks to do autonomously.
 
@@ -77,14 +114,13 @@ For this portion of the lab, it is helpful to first understand what an Arduino i
 - To make use of the Arduino and give it instructions, we used the Arduino IDE (integrated development environment). Here is the link to download that: http://www.arduino.cc/en/software.
 - 
 
-<img src="./resources/IMG_0199.JPG" alt="demo 1 pic" height="600"/>
 
 
 
 
 
 
-https://github.com/mlcourses/lab-1-blog-post-group2_cs281/assets/108073642/c98ea01f-0c8b-464a-afd8-0b9fb1a6280f
+
 
 
 
