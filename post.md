@@ -101,14 +101,46 @@ https://github.com/mlcourses/lab-1-blog-post-group2_cs281/assets/108073642/681af
 
 
 
+
+
 # Working with the Arduino
-## Project Step
-### Step 1 -
+## What you need
+- Arduino Kit
+- Laptop with Arduino software
+### Step 1 - Understanding the Arduino
+
 For this portion of the lab, it is helpful to first understand what an Arduino is. An Arduino board is an embedded controller that we can use to specify what we would like our circuit to do, as well as let the circuit operate independently. Basically, we are giving the circuit a set of tasks to do autonomously.
 
-### Step 2 - 
+### Step 2 - Setting up the Arduino
 - To make use of the Arduino and give it instructions, we used the Arduino IDE (integrated development environment). Here is the link to download that: http://www.arduino.cc/en/software.
-- 
+- Once you have become familiar with the software, use this code as instructions for the circuit:
+
+```C++
+const int P = 13;
+const int A = 1000;
+const int B = 1000;
+
+void setup() {
+  // put your setup code here, to run once:
+  pinMode(P, OUTPUT);
+}
+
+void loop() {
+  // put your main code here, to run repeatedly:
+  digitalWrite(P, HIGH);
+  delay(A);
+  digitalWrite(P, LOW);
+  delay(B);
+}
+```
+- This may look daunting if you have never worked with code before, but its simple, we promise.
+- Let us break it down for you. The very first line creates a variable, P, that will represent connection hole 13 on the Arduino board. Note that if you change which hole you are connecting to the Arduino, you must change it to the respective number in this code.
+- The next two lines represent 1000 milliseconds (1 second) that we will use as a delay.
+- Next, we have two functions: the setup function and the loop function. When an Arduino program is run, it first runs the setup then the loop function infinitely.
+- To get the code to work on your Arduino, you must first "verify" your code by clicking the checkmark in the top left corner of the page. After that you can click the arrow that is directly next to it to upload your code to the Arduino. After doing this, your Arduino can operate independently from your laptop, as long as it has a power source.
+
+### Step 3 - Wiring the Arduino
+- Now that we have the Arduino set up, we can start by 
 
 
 
@@ -137,24 +169,7 @@ The 7408 AND gate IC
 
 
 
-```C++
-const int P = 13;
-const int A = 1000;
-const int B = 1000;
 
-void setup() {
-  // put your setup code here, to run once:
-  pinMode(P, OUTPUT);
-}
-
-void loop() {
-  // put your main code here, to run repeatedly:
-  digitalWrite(P, HIGH);
-  delay(A);
-  digitalWrite(P, LOW);
-  delay(B);
-}
-```
 
 
 ## Testing
