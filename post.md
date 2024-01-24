@@ -143,8 +143,14 @@ void loop() {
 - Now that we have the Arduino set up, we can start by 
 
 
+https://github.com/mlcourses/lab-1-blog-post-group2_cs281/assets/108073642/a9e87d59-3304-45e1-a5b3-8f9dd710418b
 
 
+
+
+
+
+https://github.com/mlcourses/lab-1-blog-post-group2_cs281/assets/108073642/76b03ca5-80cc-4fa0-89e9-a5fbb10300ee
 
 
 
