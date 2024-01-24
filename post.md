@@ -153,7 +153,7 @@ https://github.com/mlcourses/lab-1-blog-post-group2_cs281/assets/108073642/a9e87
 
 
 https://github.com/mlcourses/lab-1-blog-post-group2_cs281/assets/108073642/76b03ca5-80cc-4fa0-89e9-a5fbb10300ee
-
+- In this video, we connected it to an AND gate and then to the logic indicator in order to check and experiment with the AND gate.
 
 
 
