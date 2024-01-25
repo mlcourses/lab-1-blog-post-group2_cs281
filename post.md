@@ -192,11 +192,12 @@ https://github.com/mlcourses/lab-1-blog-post-group2_cs281/assets/157081107/ba56f
 
 
 ### And Gate
-The purpose of the AND logic gate is to take two inputs and give an high output only if both inputs are high and low otherwise. We are using the 7408 AND gate IC
+The purpose of the AND logic gate is to take two inputs and give an high output only if both inputs are high and low otherwise. We are using the 7408 AND gate IC which is wired similarly to the 7404.
 <img src="./and_gate.PNG" alt="demo 1 pic" height="420"/>
+The Vcc and GND pins and the same on both IC chips. The 7408 only has 4 possible AND gates each one with two inputs 
 
 
-
+<img src="./IMG_0207.JPG" alt="demo 1 pic" height="400"/>
 
 
 
