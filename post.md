@@ -206,6 +206,12 @@ The Vcc and GND pins and the same on both IC chips. The 7408 only has 4 possible
 ### Step 1: Set up AND gate
 -Have the 7408 IC in the breadboard. 
 -We wire the Vcc to the 5v power supply and the GND to ground. 
+### Step 2: Plug into Logic switches
+Near the bottom of the bread board there is a series of switches called "Logic Switches." These will be used to toggle the inputs into our AND gate.
+-Wire one logic switchs an input of the IC chip and another switch to the corrosponding input.
+-Then, wire the corrosponding output switch to one of the logic indicators. 
+<br />
+You can turn the logic switches on and off, the output should be low except for when both switches are on high.
 
 
 ![Alternate image text](./resources/IMG_0207.JPG)
