@@ -168,15 +168,22 @@ This part of the lab will be working with the AND and NOT logic gates.
 - 7408 AND gate IC
 ### Not Gate
 The purpose of the NOT logic gate is to invert a high signal to low or a low signal to high. The 7404 NOT gate IC can be used to demonstrate a not gate. The schmatic for the 7404 is shown below.
-<img src="./not_gate.PNG" alt="demo 1 pic" height="420"/>
+<img src="./not_gate.PNG" alt="demo 1 pic" height="420"/> <br />
 To use it have the Vcc pin wired to a 5v power source and the GND pin wired to ground. There are six input pins and six output pins with each pair being denoted with a number, input pins having an A, and output pins having a Y. 
 ## Project Step - Oscillating NOT circuit
 ### Step 1: Set up NOT gate
-Have the 7404 IC in the breadboard. We wire the Vcc to the 5v power supply and the GND to ground. 
+-Have the 7404 IC in the breadboard. 
+-We wire the Vcc to the 5v power supply and the GND to ground. 
 ### Step 2: Plug in inputs
-Then wire the function generator to one of your input pins. Wire one of the logic indicators to the input pin and function generator aswell. Then wire the corrosponding output pin to another logic indicator.
+-Then wire the function generator to one of your input pins.
+-Wire one of the logic indicators to the input pin and function generator aswell. 
+-Then wire the corrosponding output pin to another logic indicator.
 ### Step 3: Set function generator
-Set up the function generator that was used in the LED circuits. Typically 1Hz on the squared wave works best.
+-Set up the function generator that was used in the LED circuits. 
+-Typically 1Hz on the squared wave works best.
+<br /><br />
+
+If everything is set up correctly you should see the two logic indicators that are wired up, one be high and the other low, and then switch back from high and low.
 
 
 
@@ -193,11 +200,15 @@ https://github.com/mlcourses/lab-1-blog-post-group2_cs281/assets/157081107/ba56f
 
 ### And Gate
 The purpose of the AND logic gate is to take two inputs and give an high output only if both inputs are high and low otherwise. We are using the 7408 AND gate IC which is wired similarly to the 7404.
-<img src="./and_gate.PNG" alt="demo 1 pic" height="420"/>
-The Vcc and GND pins and the same on both IC chips. The 7408 only has 4 possible AND gates each one with two inputs 
+<img src="./and_gate.PNG" alt="demo 1 pic" height="420"/> <br />
+The Vcc and GND pins and the same on both IC chips. The 7408 only has 4 possible AND gates each one with two inputs denoted with A and B with each corrosponding output having the same number and Y.
+## Project Step - AND gate switch circuit
+### Step 1: Set up AND gate
+-Have the 7408 IC in the breadboard. 
+-We wire the Vcc to the 5v power supply and the GND to ground. 
 
 
-<img src="./IMG_0207.JPG" alt="demo 1 pic" height="400"/>
+![Alternate image text](./resources/IMG_0207.JPG)
 
 
 
