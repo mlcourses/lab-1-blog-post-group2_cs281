@@ -202,8 +202,11 @@ The purpose of the AND logic gate is to take The 7408 AND gate IC
 
 ## Conclusion
 
-
-
+This initial laboratory session establishes groundwork for comprehending the hardware elements and principles fundamental to computer systems that is necessary for CS 281. <br />
+The getting interaction with breadboards, examining power supply connections, and wiring allow student to get more familiar with computer system from very low-level.  <br />
+Overall, it provided the insights into the functionality of electronic components such as LEDs, function generators, and logic gates. 
+ <br />
+ The incorporation of Arduino controllers allow students to connect manual circuit control with electronic operation.
 
 
 
