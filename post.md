@@ -218,6 +218,8 @@ You can turn the logic switches on and off, the output should be low except for 
 
 
 
+https://github.com/mlcourses/lab-1-blog-post-group2_cs281/assets/157081107/a652928b-7170-4493-bacf-68bba85dfe8c
+
 
 
 
